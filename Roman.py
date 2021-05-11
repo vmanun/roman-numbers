@@ -5,7 +5,7 @@ from re import  search
 class Roman:
     # Max possible value, as the max roman number usable is M (can be scaled up)
     MAX = 5999
-    
+
     # A tuple from which the toRoman method builds a Roman Number
     # the first index represents the digit to convert, meaning:
     # [0]: 1 - 9
@@ -140,5 +140,5 @@ class Roman:
 
 if __name__ == "__main__":
     romanN = Roman(3888)
-    print(Roman.isValidRoman('xxxhhk'))
+    print(Roman.isValidRoman('xx'))
 
