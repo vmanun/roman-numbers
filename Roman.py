@@ -5,6 +5,7 @@ from re import  search
 class Roman:
     # Max possible value, as the max roman number usable is M (can be scaled up)
     MAX = 5999
+    
     # A tuple from which the toRoman method builds a Roman Number
     # the first index represents the digit to convert, meaning:
     # [0]: 1 - 9
